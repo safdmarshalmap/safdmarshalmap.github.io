@@ -1,0 +1,176 @@
+[
+  {
+    "id":1,
+    "type":"Hospitales",
+    "title":"Hospital Pilbbox Hill",
+    "notes":"Sede central del SAMS.",
+    "order":1,
+    "lat":67.595,
+    "lng":-121.758,
+    "images":[
+      {
+        "id":"1",
+        "headline":"Foto del hospital",
+        "url":"https://i.gyazo.com/e84d771410b7092d32ad6e4c2c36ef48.webp",
+        "author":"Panzer911",
+        "contact":"."
+      }
+    ]
+  },
+  {
+    "id":2,
+    "type":"Hospitales",
+    "title":"Hospital Paleto Bay",
+    "notes":"Sede norte del SAMS.",
+    "order":2,
+    "lat":83.220,
+    "lng":-125.177,
+    "images":[
+      {
+        "id":"1",
+        "headline":"Foto del hospital",
+        "url":"https://i.gyazo.com/e84d771410b7092d32ad6e4c2c36ef48.webp",
+        "author":"Panzer911",
+        "contact":"."
+      }
+    ]
+  },
+  {
+    "id":3,
+    "type":"Zonas de riesgo",
+    "title":"Chatarreria - Alta Street",
+    "notes":"En la zona hay multiples tanques masivos marcados como gases inflamables y gases toxicos.",
+    "order":1,
+    "lat":63.024,
+    "lng":-129.088,
+    "images":[
+      {
+        "id":"1",
+        "headline":"Foto de los tanques en la zona",
+        "url":"https://i.gyazo.com/7d54b6a6256fb7f903ad9a3685cf28bc.png",
+        "author":"Panzer911",
+        "contact":"."
+      }
+    ]
+  },
+   
+  {
+    "id":46,
+    "type":"Parques",
+    "title":"Parque de Bomberos Paleto Bay",
+    "notes":"Sede norte del SAFD.",
+    "order":3,
+    "lat":82.750,
+    "lng":-128.034,
+    "images":[
+      {
+        "id":"1",
+        "headline":"Foto del parque",
+        "url":"https://i.gyazo.com/6551f0de167a4e9e58b16ee1a372eda4.png",
+        "author":"Panzer911",
+        "contact":"."
+      }
+    ]
+  },
+  {
+    "id":47,
+    "type":"Parques",
+    "title":"Parque 69 Vespucci",
+    "notes":"Sede central del SAFD.",
+    "order":4,
+    "lat":64.439,
+    "lng":-134.691,
+    "images":[
+      {
+        "id":"1",
+        "headline":"Foto del parque",
+        "url":"https://i.gyazo.com/978292d70322f9bd68d8111497fc39ce.png",
+        "author":"Panzer911",
+        "contact":"."
+      }
+    ]
+  },
+
+  {
+    "id":77,
+    "type":"Abiertos",
+    "timestamp":"2014-07-06T18:57:35+00:00",
+    "title":"Incendio 24/8/4",
+    "notes":"Go to Rollercoaster. Choose a seat on the Rollercoaster. Someone can choose the same seat as you and will sit \"inside\" of you. (More people can also sit in the same exact seat)",
+    "order":1,
+    "lat":65.568,
+    "lng":-140.625,
+    "video":{
+      "yt_id":"ttvvrF4_wIY",
+      "yt_user":"speedyw03",
+      "start":"2:30",
+      "end":"5:10"
+    }
+  },
+  {
+    "id":78,
+    "type":"Abiertos",
+    "timestamp":"2014-07-06T19:17:08+00:00",
+    "title":"Walk on water/air",
+    "notes":"Head over to the helipad near Los Santos Customs. Walk over to the wall near the water and lean on it. Walk to your left until the gun is under the water. Aim the gun at the wall and it will switch to the knife (then you know the glitch worked). Head back to the ramp. Now turn around and walk back to the water. And now you'll be walking on water.",
+    "order":2,
+    "lat":64.063,
+    "lng":-132.286,
+    "images":[
+      {
+        "id":"1",
+        "headline":"Facing the bridge support with the breach.",
+        "url":"General/glitches.png"
+      }
+    ] 
+  },
+  {
+    "id":79,
+    "type":"Abiertos",
+    "timestamp":"2014-07-06T19:17:08+00:00",
+    "title":"Walk on water/air",
+    "notes":"Head over to the helipad near Los Santos Customs. Walk over to the wall near the water and lean on it. Walk to your left until the gun is under the water. Aim the gun at the wall and it will switch to the knife (then you know the glitch worked). Head back to the ramp. Now turn around and walk back to the water. And now you'll be walking on water.",
+    "order":2,
+    "lat":64.163,
+    "lng":-132.386,
+    "images":[
+      {
+        "id":"1",
+        "headline":"Facing the bridge support with the breach.",
+        "url":"General/glitches.png"
+      }
+    ] 
+  },
+  {
+    "id":80,
+    "type":"Cerrados",
+    "title":"Incendio 24/8/4",
+    "notes":"Go to Rollercoaster. Choose a seat on the Rollercoaster. Someone can choose the same seat as you and will sit \"inside\" of you. (More people can also sit in the same exact seat)",
+    "order":1,
+    "lat":71.469,
+    "lng":-149.565,
+    "images":[
+      {
+        "id":"1",
+        "headline":"Facing the bridge support with the breach.",
+        "url":"General/glitches.png"
+      }
+    ] 
+  },
+  {
+    "id":81,
+    "type":"Inps. de seguridad",
+    "title":"Incendio 24/8/4",
+    "notes":"Go to Rollercoaster. Choose a seat on the Rollercoaster. Someone can choose the same seat as you and will sit \"inside\" of you. (More people can also sit in the same exact seat)",
+    "order":1,
+    "lat":69.766,
+    "lng":-135.824,
+    "images":[
+      {
+        "id":"1",
+        "headline":"Facing the bridge support with the breach.",
+        "url":"General/glitches.png"
+      }
+    ] 
+  }
+]
