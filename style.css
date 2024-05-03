@@ -1,6 +1,6 @@
 * { margin: 0; padding: 0; border: none; }
 body { font-family: Roboto, sans-serif; color: #333; }
-li { list-style: none;  }
+li { list-style: none; }
 
 .left { float: left; }
 .right { float: right; }
@@ -50,7 +50,6 @@ header a.active {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	
 }
 
 .tour #map {
@@ -59,7 +58,6 @@ header a.active {
 	height: 360px;
 	margin: 10px 10px;
 	float: left;
-	background: rgba(0,0,0,.7);
 }
 
 #tour-info {
@@ -110,10 +108,10 @@ header a.active {
 }
 
 .types .type {
-	background: #9b9b9b;
+	background: #fff;
 	box-shadow: 0 2px 6px rgba(0,0,0,0.3),0 4px 15px -5px rgba(0,0,0,0.0);
 	margin-top: 5px;
-	border-radius: 10px;
+	border-radius: 2px;
 	overflow: hidden;
 }
 
@@ -122,8 +120,7 @@ header a.active {
 .types .type h3 {
 	font-size: 0.9em;
 	padding: 3px 10px;
-	background: #818181;
-	color: #3f3f3f;
+	background: #eee;
 	cursor: pointer;
 }
 
@@ -139,8 +136,8 @@ header a.active {
 .types .type li {
 	margin-bottom: 3px;
 	overflow: hidden;
-	min-width: 180px;
-	max-width: 300px;
+	min-width: 160px;
+	max-width: 200px;
 	white-space: nowrap;
 	text-overflow: ellipsis;
 }
@@ -176,7 +173,7 @@ float: right;
 }
 
 .types .details {
-	color: #505050;
+	color: #777;
 	text-decoration: none;
 	float: right;
 	margin-top: 3px;

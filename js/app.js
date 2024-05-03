@@ -49,7 +49,7 @@ $(function() {
 	var currentMarker;
 	
 	var assetsUrl = function() {
-		return window.location.hostname == 'localhost' ? '' : '';
+		return window.location.hostname == 'localhost' ? '' : 'http://gta5-map.github.io/';
 	};
 
 	Handlebars.registerHelper('assetsUrl', assetsUrl);
@@ -140,39 +140,21 @@ $(function() {
 
 	var categories = window.cats = new CategoriesCollection([
 		{
-			name: 'Abiertos',
-			icon: 'General/glitchesaa.png',
-			type: 'Incidentes',
-			enabled: true
-		},
-		{
-			name: 'Cerrados',
+			name: 'Glitches',
 			icon: 'General/glitches.png',
-			type: 'Incidentes',
+			type: 'General',
 			enabled: true
 		},
 		{
-			name: 'Zonas de riesgo',
+			name: 'Wall breaches',
 			icon: 'General/wall-breach.png',
-			type: 'Proteccion Civil',
+			type: 'General',
 			enabled: true
 		},
 		{
-			name: 'Inps. de seguridad',
-			icon: 'General/wall-breachee.png',
-			type: 'Proteccion Civil',
-			enabled: true
-		},
-		{
-			name: 'Parques',
+			name: 'Vehicles',
 			icon: 'General/cars.png',
-			type: 'SAMS | SAFD',
-			enabled: true
-		},
-		{
-			name: 'Hospitales',
-			icon: 'General/carsee.png',
-			type: 'SAMS | SAFD',
+			type: 'General',
 			enabled: true
 		}
 	]);
@@ -274,8 +256,8 @@ $(function() {
 	var MapView = Backbone.View.extend({
 
 		initialize: function() {
-			this.mapType = 'Atlas';
-			this.mapDetails = { 'Atlas': '#1862ad', 'Satellite': '#143d6b', 'Road': '#1862ad' };
+			this.mapType = 'Road';
+			this.mapDetails = { 'Atlas': '#0fa8d2', 'Satellite': '#143d6b', 'Road': '#1862ad' };
 			this.mapOptions = {
 				center: new google.maps.LatLng(66, -125),
 				zoom: 4,
